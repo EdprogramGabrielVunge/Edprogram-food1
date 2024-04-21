@@ -1,0 +1,268 @@
+/*
+   css - whon this gay
+   
+   data: 2024/ janeiro/ 08
+
+   Nacionalidade: Angolano    
+
+   Cocriador: Edmilson Gabriel Vunge / Apelido: Edprogram
+   
+*/
+
+body
+{
+    background-color:#2b2929;
+    margin:0;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color:white;
+}
+
+header
+{
+   margin:30px 40px 40px 20px;
+
+}
+
+h1{display:inline; padding:20px 0px 0px 1px;}
+
+.pt1
+ {
+    float:left;
+    height:65px; 
+}
+.pb
+{
+
+     margin-left:50px;
+     display:inline;
+     border:1px solid transparent;
+     background-color:#0a0909;
+     padding:18px 13px 18px 4px;  
+}
+.psq
+ {
+    width:400px;
+    height:50px;
+    margin-left:0;
+    border:0px solid #0a0909;
+
+    border-color:#0a0909;
+    background:#0a0909;
+
+    color:white
+ }
+
+.btn 
+{
+    height:50px;
+    width:63px;
+    background-color:transparent;
+    border-color:transparent;
+    border-radius:2px;
+    color:#2b2929;
+}
+
+.pt2
+{
+    margin:0px;   
+    float:right;
+    background-color:transparent;  
+   }
+
+.pt2 div
+{
+
+    display:inline-block;
+    padding-left:10px;
+    padding-right:5px;
+
+    margin-left:4px;
+    border-right:1px #808080 solid;
+
+    font-size:14px;
+    font-weight:bolder;
+    margin:0px 2px 0px 2px;
+}
+
+.pt2 >div >p
+{
+    text-align:center;
+    margin:4px 3px;
+}
+
+.clb
+{
+    clear:both;
+    width:100%; 
+    height:40px; 
+    display:flex;
+    background-color:#0a0909
+
+}
+.clb span
+{
+ margin:12px  15px 0px; display:inline-block; text-transform:uppercase;
+}
+
+.clb span:hover
+{
+     border-bottom:1px solid white;
+     cursor:pointer;
+     text-shadow:-2px 2px 3px #0094ff;
+
+}
+
+.prin
+{
+    margin:0;
+    position:relative;
+}
+.s_r
+{
+    margin:0;
+    position:absolute;
+    background-color:#2b2929;
+    width:290px;
+
+}
+section
+{
+    font-family:Arial; text-indent:15px;
+    font-size:14px;
+}
+.categoria h2
+{
+    text-indent:15px;
+    border:1px solid darkorange;
+    background-color:darkorange;
+  
+    padding:18px;
+    margin:0;   
+}
+
+.div1>p
+{
+    margin:10px 4px;
+
+}
+
+.categoria
+{   
+     width:220px; height:220px;
+     margin:0 20px; background-color:black;
+}
+
+.produtos_e_preços h2
+{
+     padding:20px 0px 10px; font-family:Calibri
+
+}
+.produtos_e_preços
+{
+     width:220px; height:320px;
+     background-color:black;
+     border-radius:5px;
+     margin:12px 20px; 
+
+     
+}
+
+.produtos_e_preços img
+{
+    float:left; width:50px; height:50px; padding:0px 18px; 
+
+}
+.preço
+{
+    color:orange;
+
+}
+
+
+
+
+.centro
+{
+    position:relative;
+   
+      width:520px;
+    height:570px;
+    left:243px;
+}
+
+.centro div{background-image:url("img/comida.jpg");
+
+	background-size:100% 100%;
+    width:100%; height:90.5%;
+	}
+	
+.centro p
+{
+    text-align:center; color:black; font-family:harlow solid;
+
+}
+	
+
+.d_r
+{
+    margin:0;
+    padding:20px 10px; 
+    background-color:#000;
+
+    position:relative;
+   
+    border-radius:5px;
+    width:180px;
+
+    height:290px;
+
+    position:absolute;
+    bottom:240px;
+    left:766px;
+}
+
+.d_r img
+{width:20px; height:20px; float:left;  padding:10px 10px;}
+.d_r ._1
+{margin:0; font-weight:bold; padding:0; margin:0}
+
+.d_r > div div
+ {border-bottom:1px solid #808080;}
+
+
+.d_r_
+{
+    align-items:center;
+    margin:0;
+    padding:5px 10px; 
+    background-color:#000;
+
+    position:relative;
+   
+    border-radius:5px;
+    width:180px;
+
+    height:208px;
+
+    position:absolute;
+    bottom:15px;
+    left:766px;
+    
+    background:linear-gradient(#808080,#000 53%)
+}
+
+
+.d_r_ ._1
+{
+    text-indent:0;
+    font-weight:bolder;    
+}
+
+.d_r_ img{ 
+     width:60px; height:60px; border-radius:50px; margin-left:35%}
+
+.d_r_ ._11{font-weight:bold; text-align:center; color:#0094ff; text-indent:0; margin:0;}
+
+.c1{width:14px; height:14px;}
